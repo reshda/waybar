@@ -82,8 +82,8 @@ const doGet = (event = {}) => {
 
 7. Create a file called `~/.config/gcalendar/config.json` with the following content:
 
-```json
+```jsonc
 {
-    "endpoint": "YOUR_SCRIPT_URL", // Replace with your script URL
+    "endpoint": "YOUR_SCRIPT_URL"
 }
 ```
