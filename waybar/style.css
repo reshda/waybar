@@ -40,20 +40,11 @@ tooltip {
 }
 #clock:hover,
 #custom-pacman:hover,
-#custom-notification:hover,
 #bluetooth:hover,
 #network:hover,
-#battery:hover,
-#cpu:hover,
-#memory:hover,
-#temperature:hover {
+#battery:hover {
   transition: all 0.3s ease;
   color: @color6;
-}
-#custom-notification {
-  padding: 0px 5px;
-  transition: all 0.3s ease;
-  color: @color7;
 }
 #clock {
   padding: 0px 5px;
@@ -177,17 +168,6 @@ tooltip {
   color: @color6;
 }
 
-#cpu,
-#memory,
-#temperature {
-  padding: 0px 5px;
-  transition: all 0.3s ease;
-  color: @color7;
-}
-#custom-endpoint {
-  color: transparent;
-  text-shadow: 0px 0px 1.5px rgba(0, 0, 0, 1);
-}
 #tray {
   padding: 0px 5px;
   transition: all 0.3s ease;
