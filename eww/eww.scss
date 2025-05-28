@@ -1,0 +1,119 @@
+* {
+  all: unset;
+  font-size: 12px;
+  font-family: "JetBrains Nerd Font";
+}
+
+tooltip {
+  color: #ABB2BF;
+  background-color: #202329;
+  border-radius: 8px;
+  text-shadow: none;
+}
+
+calendar {
+  font-size: 15px;
+  padding: 3px;
+  color: #ebdbb2;
+  border-radius: 10px;
+  &:selected {
+    color: #458588;
+  }
+  &:indeterminate {
+    color: #393e48;
+  }
+  .header {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #458588;
+  }
+  .button {
+    color: #458588;
+    transition: color 0.2s;
+    &:hover {
+      color: rgba(69, 133, 136, 0.5);
+    }
+    &:active {
+      color: rgba(69, 133, 136, 0.8);
+    }
+  }
+  .highlight {
+    color: #98971a;
+  }
+}
+
+
+.control-center {
+  background-color: rgba(40, 40, 40, 0.9);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 2px rgba(20, 20, 20, 0.2);
+}
+
+.calendar-title {
+  color: #D19A66;
+  font-size: 12px;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+
+.calendar-event {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 5px;
+}
+
+.calendar-event-date {
+  color: #ebdbb2;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.calendar-event-time {
+  color: #ebdbb2;
+  font-size: 12px;
+}
+
+.calendar-event-summary {
+  color: #5E5747;
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+.top {
+  color: #D19A66;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #1d2021;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+}
+
+.bottom {
+  color: #D19A66;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #1d2021;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+}
+
+
+.close-button {
+  color: #D19A66;
+  border: none;
+  margin-right: 15px;
+  transition: background-color 0.2s, color 0.2s;
+  
+  &:hover {
+    background-color: rgba(29, 32, 33, 0.8);
+    color: rgba(209, 154, 102, 0.8);
+  }
+  
+  &:active {
+    background-color: rgba(29, 32, 33, 0.9);
+    color: rgba(209, 154, 102, 1);
+  }
+}
