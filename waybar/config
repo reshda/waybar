@@ -61,8 +61,8 @@
                 "critical": 20
             },
             "format": "{icon}",
-            "format-charging": "{capacity}% 󰂄",
-            "format-plugged": "{capacity}% 󰂄 ",
+            "format-charging": "{capacity}% 󱐋",
+            "format-plugged": "{capacity}% 󱐋 ",
             "format-alt": "{capacity}% {icon}",
 						"tooltip-format": "{capacity}% - {time}",
             "format-icons": [
